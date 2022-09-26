@@ -1,0 +1,12 @@
+html{
+	scroll-behavior: smooth;
+}
+.section{
+	height:100px;
+	border: 1px solid black;
+	border-radius:5px;
+	margin-bottom:5px;
+}
+.vimeo{
+	padding-bottom:60%;
+}
