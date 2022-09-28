@@ -26,6 +26,7 @@ nav a{
 .r{
     border-radius:5px;
     overflow:hidden;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 .l{
     border: 1px solid #F4F4F4;
