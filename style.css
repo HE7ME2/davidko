@@ -25,6 +25,7 @@ nav a{
 }
 .r{
     border-radius:5px;
+    overflow:hidden;
 }
 .l{
     border: 1px solid #AAAAAA;
