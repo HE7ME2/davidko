@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 html{
-    background-color:#E8E4DD;
+    background-color:#FCFCFC;
 }
 body{
     font-family: 'EB Garamond', serif;
@@ -36,15 +36,6 @@ nav a{
 .p{
     padding:0 20px 0px 20px;
 }
-.n{
-    white-space: nowrap;
-}
-.hi{
-    overflow-x:hidden;
-}
-.sc{
-    overflow-x:scroll;
-}
 nav.p{
     padding:0 20px 10px 20px;
 }
@@ -53,19 +44,30 @@ nav.p{
     -webkit-box-shadow: inset 0 0 5px #C6C1BA;
     box-shadow:         inset 0 0 5px #C6C1BA;
 }
-
+.n{
+    white-space: nowrap;
+}
+.c{
+    padding:0!important;
+}
+.hi{
+    overflow:hidden;
+}
+.sc{
+    overflow:scroll;
+}
 ::-webkit-scrollbar {
     display: none;
 }
 .scroll{
-    margin:0;
+    margin:5px;
     height:400px;
-    width:610px;
-    max-width:100%;
+    width:600px;
+    max-width:calc(100% - 10px);
     scroll-behavior: smooth;
     scrollbar-width: none;
     overflow-y:scroll;
-    scroll-padding: 10px;
+    scroll-padding: 5px;
 }
 .block{
     background-color:white;
