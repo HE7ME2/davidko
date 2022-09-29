@@ -30,8 +30,8 @@ p{
     hyphens: overflow;
 }
 p+p{
-/*    margin:9px 0 9px 0;*/
-    text-indent: 36px;
+    margin:13.5px 0 13.5px 0;
+/*    text-indent: 36px;*/
 }
 a:last-of-type, p:last-of-type{
     margin:0 0 18px 0;
