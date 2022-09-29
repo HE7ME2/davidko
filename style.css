@@ -31,7 +31,7 @@ p{
 }
 p+p{
     margin:13.5px 0 13.5px 0;
-/*    text-indent: 36px;*/
+/*    text-indent: 36px;*/ 
 }
 a:last-of-type, p:last-of-type{
     margin:0 0 18px 0;
