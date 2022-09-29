@@ -11,7 +11,7 @@ html{
 
 body{
     height:100%;
-    font-size:18px;
+    font-size:16px;
     line-height:1.5;
     font-family: 'EB Garamond', serif;
 /*    font-family: 'IM Fell English', serif;*/
@@ -20,6 +20,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight:normal;
     margin:0;
+    text-decoration:none!important;
 }
 h2{
     font-style:italic;
