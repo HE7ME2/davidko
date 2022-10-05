@@ -90,7 +90,7 @@ nav.p{
     max-width:100%;
 
 }
-.footer{
+footer{
     position:sticky;
     bottom:0px;
     padding-bottom:10px;
@@ -98,4 +98,8 @@ nav.p{
     z-index:1;
     max-width:100%;
 }
-
+@media print {
+  article {page-break-after: always;}
+  .noprint{display:none;}
+  .printonly{display:block;}
+}
