@@ -125,11 +125,11 @@ footer{
     max-width:100%;
 }
 @media print {
+    body{font-size:14px;}
   article {page-break-after: always;}
   .noprint{display:none;}
   .printonly{display:block;}
 }
-
 .img-about{
     max-width:40%;
     display:block;
