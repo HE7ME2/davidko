@@ -20,6 +20,9 @@ body{
 article{
     padding:0 20px 0px 20px;
 }
+td{
+    vertical-align:top;
+}
 figure{
     margin:0 0 18px 0;
 }
